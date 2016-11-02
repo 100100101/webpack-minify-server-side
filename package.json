@@ -1,0 +1,16 @@
+{
+  "name": "webpack-minify-server-side",
+  "version": "0.1.0",
+  "description": "webpack loader for minify server side scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "fs-extra": "^1.0.0"
+  }
+}
