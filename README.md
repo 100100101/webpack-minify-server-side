@@ -95,13 +95,13 @@ module.exports = webpack({
   },
 
   entry: {
-    bundle: './source/index.js'
+    bundle: './server/enter_point.js'
   },
 
   output: {
     libraryTarget: 'commonjs2',
     library: '[name]',
-    path: path.resolve(__dirname, './dist/'),
+    path: path.resolve(__dirname, './server_minify/'),
     publicPath: './dist/',
     filename: '[name].js',
   },
